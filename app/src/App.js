@@ -30,8 +30,6 @@ const App = () => {
 	// Create a stateful variable to store the network next to all the others
 	const [network, setNetwork] = useState('');
 
-	const [loading, setLoading] = useState(false);
-
 	// Implement your connectWallet method here
 	const connectWallet = async () => {
 		try {
