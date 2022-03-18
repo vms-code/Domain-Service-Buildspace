@@ -319,7 +319,7 @@ const App = () => {
 				<input
 					type="text"
 					value={record}
-					placeholder='Code your domain'
+					placeholder='Describe your domain'
 					onChange={e => setRecord(e.target.value)}
 				/>
 
